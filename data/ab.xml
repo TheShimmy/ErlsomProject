@@ -1,0 +1,53 @@
+<people>
+  
+  <person>
+
+    <firstName>Przemyslaw</firstName>
+    <lastName>Kurc</lastName>
+
+    <phones>
+      <phone>123456</phone>
+      <phone>654321</phone>
+    </phones>
+
+    <emails>
+      <email>przemyslawkurc@gmail.com</email>
+      <email>me@pkurc.pl</email>
+    </emails>
+ 
+  </person>
+
+  <person>
+
+    <firstName>Szymon</firstName>
+    <lastName>Lagiewka</lastName>
+
+    <phones>
+      <phone>987654</phone>
+      <phone>456789</phone>
+    </phones>
+
+    <emails>
+      <email>szymonlagiewka@gmail.com</email>
+      <email>me@slagiewka.pl</email>
+    </emails>
+ 
+  </person>
+
+  <person>
+
+    <firstName>Wojciech</firstName>
+    <lastName>Turek</lastName>
+
+    <phones>
+      <phone>112233</phone>
+      <phone>332211</phone>
+    </phones>
+
+    <emails>
+      <email>wojciech.turek@agh.edu.pl</email>
+    </emails>
+ 
+  </person>
+
+</people>

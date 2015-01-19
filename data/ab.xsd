@@ -1,0 +1,32 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:element name="people" type="peopleType"/>
+
+  <xsd:complexType name="peopleType">
+    <xsd:sequence>
+      <xsd:element name="person" type="personType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="personType">
+    <xsd:sequence>
+      <xsd:element name="firstName" type="xsd:string"/>
+      <xsd:element name="lastName" type="xsd:string"/>
+      <xsd:element name="phones" type="phoneListType"/>
+      <xsd:element name="emails" type="emailListType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="phoneListType">
+    <xsd:sequence>
+      <xsd:element name="phone" type="xsd:integer" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="emailListType">
+    <xsd:sequence>
+      <xsd:element name="email" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+</xsd:schema>
